@@ -16,6 +16,7 @@
  */
 echo "<?php\n";
 ?>
+// @codingStandardsIgnoreStart
 class <?php echo $class; ?> extends CakeMigration {
 
 /**
@@ -58,3 +59,4 @@ class <?php echo $class; ?> extends CakeMigration {
 		return true;
 	}
 }
+// @codingStandardsIgnoreEnd
